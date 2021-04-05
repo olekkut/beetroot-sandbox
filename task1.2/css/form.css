@@ -1,0 +1,59 @@
+main {
+   margin: 10% 100px 10% 100px;
+}
+
+h1 {
+   font-size: 32px;
+}
+
+legend {
+   text-transform: uppercase;
+   color: #7fcecd;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+fieldset {
+   border-radius: 8px;
+   border-color: #d7ffff;
+   background-color: #faf3ee;
+}
+
+main {
+   color: #712300;
+   font-size: 16px;
+}
+
+label {
+   display: inline-block;
+   vertical-align: top;
+}
+
+fieldset label {
+   /* display: block; */
+   text-align: left;
+   width: 230px;
+   
+}
+input {
+   height: 15px;
+   width: 250px;
+}
+
+.radio input {
+ width: 20px;
+
+}
+
+p {
+   margin: 10px;
+}
+
+button {
+   width: 130px;
+   height: 40px;
+   background: linear-gradient(white, #7fcecd);
+   border-radius: 8px;
+   border-color: #d7ffff;
+   box-shadow: none;
+}

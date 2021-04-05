@@ -1,0 +1,36 @@
+h1 {
+   color:forestgreen;
+}
+
+a {
+   color: black;
+   font-weight: bold;
+}
+
+.link_color {
+   color: red;
+}
+
+body { 
+   background: gainsboro;
+}
+
+.container {
+   margin: 0 10% 5% 10%;
+}
+
+.section {
+   background-color: lavenderblush;
+   padding: 30px;
+   border: 1px solid #333;
+   border-radius: 20px;
+   width: calc(33% - 60px);
+   display: inline-block;
+   font-size: 14px;
+   letter-spacing: normal;
+   vertical-align: top;
+}
+
+.blog_preview {
+   letter-spacing: -0.36em;
+}

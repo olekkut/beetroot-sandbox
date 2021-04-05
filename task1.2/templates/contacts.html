@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="cv.html">Моє резюме</a></li>
+            <li><a href="contacts.html">Контакт</a></li>
+            <li><a href="form.html">Анкета посетииеля ресторана</a></li>
+            <li>Блог
+               <ol>
+                  <li><a href="semantics.html">Семантика</a></li>
+                  <li><a href="front_end.html">Фронтенд</a></li>
+               </ol>
+            </li>
+         </ul>
+      </nav>
+   </header>
+   <main>
+      <h1>Контакти</h1>
+      <br>
+      <p>Мій телефон <a href="tel:38889239283">+38889239283</a></p>
+      <p>Напишіть мені <a href="mailto:edsfsdf@fsfs.xyz">edsfsdf@fsfs.xyz</a></p>
+
+      <h2>Напишіть нам</h2>
+
+      <form action="#">
+
+
+         <fieldset>
+
+            <p><label for="userName">Ваше ім'я</label></p>
+            <input id="userName " type="text" name="user-name" placeholder="Ваше Ім'я" title="Ім'я">
+
+            <p><label for="userName">Ваше ім'я</label></p>
+            <input id="userName" type="text" name="user-name" placeholder="Ваше Ім'я" title="Ім'я">
+
+         </fieldset>
+         <br>
+         <fieldset>
+
+            <label><input type="checkbox" name="skills" value="html">html</label><br>
+            <label><input type="checkbox" name="skills" value="css">css</label><br>
+            <label><input type="checkbox" name="skills" value="js">js</label><br>
+         </fieldset>
+         <br>
+         <fieldset>
+            <label><input type="radio" name="sex" value="wom">Жін</label>
+            <label><input type="radio" name="sex" value="men">Чол</label>
+            <select name="country" id="country">
+               <option value="UA">Укрїна</option>
+               <option value="RU">Росія</option>
+            </select>
+            <button>submit</button>
+         </fieldset>
+      </form>
+   </main>
+</body>
+
+</html>
