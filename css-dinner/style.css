@@ -1,0 +1,105 @@
+* {
+   font-family: \'Trebuchet MS\', Trebuchet, Arial, sans-serif;
+   transition: all .1s ease-in;
+}
+
+
+
+.container {
+   /* margin: 10px; */
+   background-color: #3b3f45;
+}
+
+
+
+
+/* <Header> start */
+header {
+   background-color: #4a4f56;
+   color: #e97e7f;
+   text-align: center;
+}
+
+
+.h1_up {
+   padding-top: 10px;
+   font-weight: 600;
+   margin: 0;
+}
+
+.h2_low {
+   padding-bottom: 10px;
+   font-weight: lighter;
+   font-size: 10;
+   margin: 0;
+}
+/* <Header> end */
+
+
+
+
+/* <Main> start */
+main {
+   padding: 30px;
+
+}
+
+.list_container {
+   margin: 0 auto;
+   max-width: 800px;
+}
+
+.list_container ul {
+   list-style-type: none;
+   padding: 0;
+   font-size: 21px;
+}
+
+.list_container ul li {
+   background-color: #88839e;
+   color: white;
+   padding: 12px;
+}
+
+.list_container ul li:nth-child(even) {
+   background-color:#7a7593;
+}
+
+.list_container ul li label {
+   margin-left: 5px;
+}
+
+.list_container input[type=checkbox]:checked ~ label {
+   text-decoration: line-through;
+   color: #9b9ab1 ;
+
+}
+
+.list_container input[type=checkbox]:checked ~ .comment {
+   text-decoration: line-through;
+   color: #9b9ab1 ;
+
+}
+
+
+
+
+.comment {
+   color: #b8b6d0 ;
+   font-size: 18px;
+}
+/* <Main> end */
+
+
+
+.button {
+   background-color: #4a4f56 ;
+   color: #e97e7f;
+   font-size: 22px;
+   margin: 40px auto 0;
+   padding: 15px 0;
+   text-align: center;
+   max-width: 800px;
+} 
+
+

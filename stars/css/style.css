@@ -1,0 +1,26 @@
+.star {
+   width: 22px;
+   height: 30px;
+   background-image: url(../star-inactive.png);
+   display: inline-block;
+   background-repeat: no-repeat;
+   background-size: contain ;
+   cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star,
+.stars input:checked ~ .star {
+background-image: url(../star-active.png);
+
+}
+
+.star_input {
+   display: none;
+}
+
+.stars {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: flex-end;
+}
