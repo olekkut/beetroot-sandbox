@@ -61,6 +61,13 @@ main {
    padding: 12px;
 }
 
+.list__item:nth-child(even):hover, 
+.list__item:nth-child(odd):hover {
+   background-color: #534f66;
+   border-top: 2px solid white;
+   border-bottom: 2px solid white;
+}
+
 .list_container ul li:nth-child(even) {
    background-color:#7a7593;
 }
@@ -69,17 +76,17 @@ main {
    margin-left: 5px;
 }
 
-.list_container input[type=checkbox]:checked ~ label {
-   text-decoration: line-through;
-   color: #9b9ab1 ;
-
-}
-
+.list_container input[type=checkbox]:checked ~ label,
 .list_container input[type=checkbox]:checked ~ .comment {
    text-decoration: line-through;
    color: #9b9ab1 ;
 
 }
+
+.list_container input[type=checkbox]:checked ~ .list__item {
+   background-color: tomato;
+}
+
 
 
 
