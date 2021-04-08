@@ -126,12 +126,14 @@ main .section-index_html {
 }
 
 
-.filtration-list span:hover {
+.filtration-list span:hover,
+.filtration-list span:active {
 background-color: #f41424;
 color: white;
 }
 
 
-.filtration-list span:hover::before {
+.filtration-list span:hover::before,
+.filtration-list span:active::before  {
    color: #f98991;
 }  
