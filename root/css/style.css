@@ -1,9 +1,137 @@
-.container {
-   border: 2px solid rgb(24, 148, 186);
-   border-radius: 60px;
-   max-width: 800px;
-   height: 900px;
-
-   margin: 100px auto;
-   padding: 55px;
+* {
+box-sizing: border-box;
 }
+
+body {
+   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container {
+
+}
+
+
+
+/* Header */
+
+.h1-olek{
+   margin: 15px 0 45px;
+   text-align: center;
+}
+
+.nav-list {
+   font-size: 21px;
+
+   list-style-type: none;
+   padding-left: 0;  
+   margin: 0;
+   text-align: center;
+   vertical-align: bottom;
+
+  
+}
+
+.nav-list li{
+   display: inline-block;
+   text-align: center;
+   margin: 9px 13px;
+}
+
+header a{
+   color:black;
+   text-decoration: none;
+   padding: 10px 13px;
+}
+
+header a:hover {
+   color:rgb(202, 45, 45);
+   text-decoration: none;
+}
+
+
+
+
+
+
+/* Main */
+
+main {
+   margin-top: 25px;
+   /* background-color: rgb(248, 248, 248); */
+
+}
+
+main a { 
+   text-decoration: none;
+   border-bottom: 1px solid;
+   line-height: 120%;
+}
+
+main a:link {
+   color: #008ace;
+}
+
+main a:hover {
+   color: rgb(202, 45, 45);
+}
+
+main a:visited {
+   color: rgb(179, 39, 179);
+}
+
+
+/* Works on index.html */
+main .section-index_html {
+   display: inline-block;
+   background-color: chocolate;
+   margin: 10px 10px;
+   padding: 15px;
+   min-width: 200px;
+   width: 10%;
+}
+
+
+
+/* Works on homework.html */
+
+.filtration-container {
+   margin: 200px auto 10px;
+   max-width: 900px;
+   min-width: 300px;
+}
+
+.filtration-list {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.filtration-list span {
+   display: inline-block;
+   cursor: pointer;
+   background-color: #e5f1ff ;
+   color: #0089ff;
+   font-size: 23px;
+   font-weight: 400;
+   padding: 3px 11px;
+   border-radius: 5px;
+   text-transform: lowercase;
+   margin-bottom: 6px;
+   margin-right: 6px;
+}
+
+.filtration-list span:before {
+   content: '# ';
+   color: #74bdff;
+   
+}
+
+
+.filtration-list span:hover {
+background-color: #f41424;
+color: white;
+}
+
+
+.filtration-list span:hover::before {
+   color: #f98991;
+}  
