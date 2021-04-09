@@ -2,6 +2,18 @@
    box-sizing: border-box;
 }
 
+h1, h2 {
+   margin: 30px 0;
+}
+
+h1 {
+   font-weight: 400;
+}
+h2 {
+   font-weight: 300;
+   font-size: 20px;
+}
+
 body{
    font-family: Helvetica, Sans-Serif;
    background-color: #113446;
@@ -17,14 +29,14 @@ body{
 main {
    margin: 0 auto;
    padding-top: 35px;
-   width: 900px;
+   max-width: 900px;
    color: white;
 }
 
 
-.list-container {
+/* .list-container {
    background-color: rgb(172, 172, 172);
-}
+} */
 
 .city-list {
    list-style: none;
@@ -37,14 +49,26 @@ main {
    display: inline-block;
    font-size: 20px;
    text-align: center;
-   padding: 50px 0;
+   padding: 30px 0 0;
    border: 3px solid white;
 }
 
 .city-list li span {
    display: block;
    font-size: 30px;
+   font-weight: 200;
+   opacity: 0.7;
+   padding: 10px 0 30px;
 }
+
+.city-list li:hover ul {
+
+   opacity: 0.5;
+}
+
+
+
+
 
 .lisbon {
    width: 50%;
@@ -97,3 +121,5 @@ main {
    width: 100%;
    background-color: #666699;
 }
+
+
