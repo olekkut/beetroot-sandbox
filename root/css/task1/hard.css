@@ -1,0 +1,60 @@
+body {
+   background-color: whitesmoke;
+}
+
+.container {
+   margin: 0 auto;
+   text-align: center;
+}
+
+nav {
+   background: #000;
+   text-align: center;
+}
+
+nav img {
+   width: 200px;
+}
+
+nav li { 
+   display: inline-block;
+   margin: 0 30px;
+   margin-top: 20px;
+}
+
+nav a {
+   display: block;
+   text-align: center;
+   color: white;
+   text-decoration: none;
+   margin-top: 5px;
+}
+
+
+.menu, section, aside {
+   display: inline-block;
+   text-align: left;
+   vertical-align: top;
+}
+
+
+.menu {
+   background-color: maroon;
+   width: 200px;
+
+   list-style: none;
+}
+
+section {
+   text-align-last: left;
+   width: 700px;
+}
+
+aside {
+   width: 200px;
+}
+
+aside ul {
+   list-style: none;
+
+}

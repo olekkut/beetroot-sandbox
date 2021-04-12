@@ -1,0 +1,54 @@
+@font-face {
+   font-family: 'Playfair';
+   src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot');
+   src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff'),
+   url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Lato';
+   src: url('../fonts/Lato/LatoBold/Lato-Bold.eot');
+   src: url('../fonts/Lato/LatoBold/Lato-Bold.eot.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Lato/LatoBold/Lato-Bold.woff') format('woff'),
+   url('../fonts/LatoBold/Lato-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+
+body {
+   margin: 0;
+   font-family: 'Lato' sans-serif;
+   font-style: 18px;
+   line-height: 1.89;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.container {
+   width: calc(100% - 200px);
+   max-width: 1400px;
+   box-shadow: 0 -4px 68px 0 rgba(0, 0, 0, 0.1);
+   margin: 0 auto;
+   padding: 130px 120px;
+
+}
+
+.h1 {
+   font-family: 'Playfair', serif;
+   font-style: 42px;
+   line-height: 1.3;
+   font-weight: normal;
+}
+ 
+.first:first-letter {
+   font-family: 'Lato';
+   font-size: 42px;
+   font-weight: bold;
+   line-height: 1.3;
+}
+
